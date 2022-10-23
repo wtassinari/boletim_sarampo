@@ -1,0 +1,42 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "Sobre este site",
+      "description": "Todo o conteúdo deste site faz parte do Projeto PMA INOVA FIOCRUZ 2020, intitulado *Análise geográfica da Cobertura Vacinal e a ocorrência do Sarampo no Brasil, 2000-2019.*",
+      "author": [],
+      "contents": "\nO presente estudo pretende investigar a cobertura vacinal com a ocorrência de casos de sarampo para identificar regiões brasileiras com maior heterogeneidade na evolução temporal e a distribuição geográfica da cobertura nacional da vacina dupla e tríplice viral.\n\n\n\n",
+      "last_modified": "2022-03-07T11:40:02+00:00"
+    },
+    {
+      "path": "content.html",
+      "title": "Main page",
+      "author": [],
+      "contents": "\n\n\n\n\n\n\n\n\n\n\nBoletim Eletrônico\n\n\nPrincipal\n\n\nVacina\n \n▾\n\n\nGrandes Regiões\nUFs - Estados\n\n\n\n\nSarampo\n \n▾\n\n\nGrandes Regiões\nUFs - Estados\n\n\nSobre\n\n\n\n☰\n\n\n  \n    \n      \n        \n        \n        \n      \n      \n    \n    \n      \n  Principal\n\n\n  \n    Vacina\n     \n    \n  \n  \n      Grandes Regiões\n    \n    \n      UFs - Estados\n    \n  \n\n  \n    Sarampo\n     \n    \n  \n  \n      Grandes Regiões\n    \n    \n      UFs - Estados\n    \n  \n\n  Sobre\n\n\n  \n    \n     \n  \n\n      \n  \n\n\n\n\n\n\nMain page\n\n\n\n\nThis is where you link to the other files, which are in a folder in the main directory. Make sure the name of the folder does not have an underscore in it. You also need to go knit those files within the folder first. And, if you update the file, you need to reknit it!.\nFile 1\nFile 2\nFile 3\n\n© Copyright 2018 [The Distill Template Authors] (https://github.com/distillpub/template/blob/master/AUTHORS) and RStudio, Inc.\nSoftware licensed under the [Apache License, v2.0] (https://www.apache.org/licenses/LICENSE-2.0).\n\n\n\n\n\n\n\n\n",
+      "last_modified": "2022-03-07T11:40:02+00:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Sarampo",
+      "description": "A new article created using the Distill format.\n",
+      "author": [
+        {
+          "name": "Nora Jones",
+          "url": "https://example.com/norajones"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\n\n          \n          \n          \n          \n          Boletim Eletrônico\n          \n          \n          Principal\n          \n          \n          Vacina\n           \n          ▾\n          \n          \n          Grandes Regiões\n          UFs - Estados\n          \n          \n          \n          \n          Sarampo\n           \n          ▾\n          \n          \n          Grandes Regiões\n          UFs - Estados\n          \n          \n          Sobre\n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            Sarampo\n          \n          \n            \n              Testando ….\n              Distill is a publication format for scientific and\n              technical writing, native to the web.\n              Learn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n            \n            \n              Testando ….\n              Distill is a publication format for scientific and\n              technical writing, native to the web.\n              Learn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n            \n          \n\n          \n            \n              \n          \n\n          \n            \n              \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    \n          © Copyright 2018 [The Distill Template Authors]\n          (https://github.com/distillpub/template/blob/master/AUTHORS) and RStudio, Inc.\n          Software licensed under the [Apache License, v2.0]\n          (https://www.apache.org/licenses/LICENSE-2.0).\n          \n          \n\n    \n  ",
+      "last_modified": "2022-10-23T18:29:01+00:00"
+    },
+    {
+      "path": "vacina_regioes.html",
+      "title": "Sobre a Vacinação",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\n\n\n\nDistribuição temporal da cobertura Vacinal da tríplice viral, Brasil e Regiões - 2000 a 2020.\n\n\n\n\n\n\nDistribuição da cobertura Vacinal da tríplice viral, Brasil e Regiões - 2000 a 2020.\n\n\n\nDistribuição da cobertura Vacinal da tríplice viral entre o Brasil e Regiões - 2000 a 2020.\n\n\n\nDistribuição Geográfica da cobertura vacinal pelo Brasil por grandes regiões por triênios 2000 a 2020.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIDH + Pop + Cobertura\n\n\n\n\n\n\n",
+      "last_modified": "2022-03-07T11:40:28+00:00"
+    }
+  ],
+  "collections": []
+}

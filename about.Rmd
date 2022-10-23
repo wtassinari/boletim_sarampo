@@ -1,0 +1,12 @@
+---
+title: "Sobre este site"
+description: |
+   Todo o conteúdo deste site faz parte do Projeto PMA INOVA FIOCRUZ 2020, intitulado *Análise geográfica da Cobertura Vacinal e a ocorrência do Sarampo no Brasil, 2000-2019.*
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+O presente estudo pretende investigar a cobertura vacinal com a ocorrência de casos de sarampo para
+identificar regiões brasileiras com maior heterogeneidade na evolução temporal e a distribuição geográfica da cobertura nacional da vacina dupla e tríplice viral.

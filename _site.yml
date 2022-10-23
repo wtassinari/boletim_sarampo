@@ -1,0 +1,39 @@
+name: "boletim2_sarampo"
+title: "Boletim Eletrônico"
+theme: my_theme.css
+description: |
+  Boletim Sarampo
+output_dir: "docs"
+navbar:
+  logo:
+    image: imagens/sarampo1.png
+    href: https://bvsms.saude.gov.br/sarampo/
+  search: true
+  right:
+    - text: "Principal"
+      href: index.html
+      
+    - text: "Vacina"
+      href: vacina.html
+      menu:
+        - text: "Grandes Regiões"
+          href: vacina_regioes.html
+        - text: "UFs - Estados"
+          href: municipios.html
+          
+    - text: "Sarampo"
+      href: content.html
+      menu:
+        - text: "Grandes Regiões"
+          href: vacina_regioes.html
+        - text: "UFs - Estados"
+          href: municipios.html
+          
+    - text: "Sobre"
+      href: about.html
+     
+    - icon: fab fa-github
+      href: https://github.com/wtassinari/boletim2_sarampo
+output: distill::distill_article
+
+
