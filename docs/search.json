@@ -17,17 +17,36 @@
     },
     {
       "path": "index.html",
-      "title": "Sarampo",
-      "description": "A new article created using the Distill format.\n",
+      "title": "",
       "author": [
         {
-          "name": "Nora Jones",
-          "url": "https://example.com/norajones"
+          "name": "Coordenação: Yara Hökerberg",
+          "url": "([yarahahr@ini.fiocruz.br]())"
+        },
+        {
+          "name": "Vice-Coordenação: Raquel Vasconcelos",
+          "url": "([raquel.vasconcellos@ini.fiocruz.br]())"
+        },
+        {
+          "name": "Sônia Regina Lambert",
+          "url": "([sonia.lambert@ini.fiocruz.br]())"
+        },
+        {
+          "name": "Lívia Moura",
+          "url": "([lica.moura.lima@gmail.com]())"
+        },
+        {
+          "name": "Luan da Silva",
+          "url": "([snoedasilva@gmail.com]())"
+        },
+        {
+          "name": "Wagner Tassinari",
+          "url": "([tassinari@ufrrj.br]())"
         }
       ],
-      "date": "`r Sys.Date()`",
-      "contents": "\n\n          \n          \n          \n          \n          Boletim Eletrônico\n          \n          \n          Principal\n          \n          \n          Vacina\n           \n          ▾\n          \n          \n          Grandes Regiões\n          UFs - Estados\n          \n          \n          \n          \n          Sarampo\n           \n          ▾\n          \n          \n          Grandes Regiões\n          UFs - Estados\n          \n          \n          Sobre\n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            Sarampo\n          \n          \n            \n              Testando ….\n              Distill is a publication format for scientific and\n              technical writing, native to the web.\n              Learn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n            \n            \n              Testando ….\n              Distill is a publication format for scientific and\n              technical writing, native to the web.\n              Learn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n            \n          \n\n          \n            \n              \n          \n\n          \n            \n              \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    \n          © Copyright 2018 [The Distill Template Authors]\n          (https://github.com/distillpub/template/blob/master/AUTHORS) and RStudio, Inc.\n          Software licensed under the [Apache License, v2.0]\n          (https://www.apache.org/licenses/LICENSE-2.0).\n          \n          \n\n    \n  ",
-      "last_modified": "2022-10-23T18:29:01+00:00"
+      "date": "March 5, 2022",
+      "contents": "\n\n          \n          \n          \n          \n          Boletim Eletrônico\n          \n          \n          Principal\n          \n          \n          Vacina\n           \n          ▾\n          \n          \n          Grandes Regiões\n          UFs - Estados\n          \n          \n          \n          \n          Sarampo\n           \n          ▾\n          \n          \n          Grandes Regiões\n          UFs - Estados\n          \n          \n          Sobre\n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            \n          \n          \n            \n              Sarampo é uma doença altamente contagiosa causada pelo\n              vírus do sarampo (Measles morbillivirus). Os sinais e\n              sintomas iniciais geralmente incluem febre, muitas vezes\n              superior a 40 ºC, tosse, corrimento nasal e olhos\n              inflamados. Dois ou três dias depois do início dos\n              sintomas formam-se no interior da boca pequenos pontos\n              brancos, denominados sinais de Koplik. Entre três a cinco\n              dias depois do início dos sintomas aparece uma mancha\n              vermelha e plana que geralmente tem início na face e daí\n              se espalha para o resto do corpo.[2] Os sintomas\n              começam-se a manifestar entre dez e doze dias depois do\n              contágio e duram entre sete a dez dias. Em cerca de 30%\n              dos casos ocorrem complicações, as quais podem incluir,\n              entre outras, diarreia, cegueira, inflamação do cérebro e\n              pneumonia. A rubéola e a roséola, apesar de causarem\n              sintomas semelhantes aos do sarampo, são causadas por\n              vírus diferentes e apresentam características\n              distintas.\n              \n              \n              por MArta Bonimond\n              \n              \n            \n            \n              Sarampo é uma doença altamente contagiosa causada pelo\n              vírus do sarampo (Measles morbillivirus). Os sinais e\n              sintomas iniciais geralmente incluem febre, muitas vezes\n              superior a 40 ºC, tosse, corrimento nasal e olhos\n              inflamados. Dois ou três dias depois do início dos\n              sintomas formam-se no interior da boca pequenos pontos\n              brancos, denominados sinais de Koplik. Entre três a cinco\n              dias depois do início dos sintomas aparece uma mancha\n              vermelha e plana que geralmente tem início na face e daí\n              se espalha para o resto do corpo.[2] Os sintomas\n              começam-se a manifestar entre dez e doze dias depois do\n              contágio e duram entre sete a dez dias. Em cerca de 30%\n              dos casos ocorrem complicações, as quais podem incluir,\n              entre outras, diarreia, cegueira, inflamação do cérebro e\n              pneumonia. A rubéola e a roséola, apesar de causarem\n              sintomas semelhantes aos do sarampo, são causadas por\n              vírus diferentes e apresentam características\n              distintas.\n              \n              \n              por MArta Bonimond\n              \n              \n            \n          \n\n          \n            \n              \n          \n\n          \n            \n              \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    \n          © Copyright 2018 [The Distill Template Authors]\n          (https://github.com/distillpub/template/blob/master/AUTHORS) and RStudio, Inc.\n          Software licensed under the [Apache License, v2.0]\n          (https://www.apache.org/licenses/LICENSE-2.0).\n          \n          \n\n    \n  ",
+      "last_modified": "2022-10-23T18:52:01+00:00"
     },
     {
       "path": "vacina_regioes.html",

@@ -1,30 +1,110 @@
 ---
-title: "Sarampo"
+title: ""
 description: |
-  A new article created using the Distill format.
+Um Estudo sobre o Sarampo e a Vacinação: 2003 a 2020
+
+image: "imagens/sarampo2.png"
+
+# links:
+#   - label: Facebook
+#     url:"www.facebook.com"
+#   - label: Twitter
+#     url:"www.facebook.com"
+#   - label: MS
+#     url:"https://www.gov.br/saude/pt-br/assuntos/noticias/2021-1/dezembro/ministerio-da-saude-debate-acoes-para-combater-sarampo-no-brasil-em-2022"
+#   - label: FIOCRUZ
+#     url:"https://portal.fiocruz.br/"
+#   
+
+date: March 5, 2022
 author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
-date: "`r Sys.Date()`"
-output: 
+  - name: "Coordenação: Yara Hökerberg"
+    url: ([yarahahr@ini.fiocruz.br]())
+    affiliation: LABEPICIN/INI/FIOCRUZ
+    affiliation_url: https://www.ini.fiocruz.br/labepiclin
+    
+  - name: "Vice-Coordenação: Raquel Vasconcelos"
+    url: ([raquel.vasconcellos@ini.fiocruz.br]())
+    affiliation: LABEPICIN/INI/FIOCRUZ
+    affiliation_url: https://www.ini.fiocruz.br/labepiclin
+    
+  - name: "Sônia Regina Lambert"
+    url: ([sonia.lambert@ini.fiocruz.br]())
+    affiliation: LABEPICIN/INI/FIOCRUZ
+    affiliation_url: https://www.ini.fiocruz.br/labepiclin
+    
+  - name: "Lívia Moura"
+    url: ([lica.moura.lima@gmail.com]())
+    affiliation: SMS - Rio
+    affiliation_url: http://www.rio.rj.gov.br/web/sms
+    
+  - name: "Luan da Silva"
+    url: ([snoedasilva@gmail.com]())
+    affiliation: IFRJ
+    affiliation_url: 
+    
+  - name: "Wagner Tassinari"
+    url: ([tassinari@ufrrj.br]())
+    affiliation: DEMAT/ICE/UFRRJ
+    affiliation_url: http://www.ice.ufrrj.br/demat/
+
+# bibliography: biblio.bib
+output:
   postcards::jolla
 site: distill::distill_website
 toc: true
+
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+library(knitr)
+options(max.print="100")
+knitr::opts_chunk$set(echo=FALSE,
+               cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE,
+               cache.lazy=FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
 ```
 
-Testando ....
 
-Distill is a publication format for scientific and technical writing, native to the web. 
+```{r, echo=FALSE, results='asis', comment = NA, message = F, warning = F}
+if(!require(pacman)) install.packages("pacman")
+library(pacman)
 
-Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
+pacman::p_load(plotly, ggmap, foreign, haven, readxl, dplyr, questionr, tidyr, ggplot2, gridExtra,
+               hrbrthemes, ggridges, viridis, knitr, kableExtra, 
+               summarytools, reshape, wesanderson, plyr, ggstatsplot, epiR,
+               zoo, questionr, lubridate, stringi, geobr, RgoogleMaps, 
+               sp, tmap, sf, devtools, geobr)
+
+# devtools::install_github('rstudio/rmarkdown@3953abd473e9230faca4dcad996d5d1b35c3b3a7')
+# devtools::install_github('gagolews/stringi')
+# devtools::install_github("rpradosiqueira/brazilmaps")
+# devtools::install_github("ipeaGIT/geobr", subdir = "r-package")
+# remotes::install_github("plotly/plotly")
+# install_github("hadley/dplyr")
+# https://github.com/sagarkulkarny/HR-Movement-Dashboard-using-Flexdashboard-
+
+```
 
 
+Sarampo é uma doença altamente contagiosa causada pelo vírus do sarampo (Measles morbillivirus). Os sinais e sintomas iniciais geralmente incluem febre, muitas vezes superior a 40 ºC, tosse, corrimento nasal e olhos inflamados. Dois ou três dias depois do início dos sintomas formam-se no interior da boca pequenos pontos brancos, denominados sinais de Koplik. Entre três a cinco dias depois do início dos sintomas aparece uma mancha vermelha e plana que geralmente tem início na face e daí se espalha para o resto do corpo.[2] Os sintomas começam-se a manifestar entre dez e doze dias depois do contágio e duram entre sete a dez dias. Em cerca de 30% dos casos ocorrem complicações, as quais podem incluir, entre outras, diarreia, cegueira, inflamação do cérebro e pneumonia. A rubéola e a roséola, apesar de causarem sintomas semelhantes aos do sarampo, são causadas por vírus diferentes e apresentam características distintas.
+
+
+
+```{r pressure, echo=FALSE, fig.cap="por MArta Bonimond", out.width = '100%'}
+knitr::include_graphics("imagens/tirinha1.png")
+```
 
 
 
